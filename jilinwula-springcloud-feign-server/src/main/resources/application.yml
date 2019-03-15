@@ -1,12 +1,9 @@
 eureka:
   client:
     service-url:
-      defaultZone: http://127.0.0.1:8762/eureka/
-    register-with-eureka: false
-  server:
-    enable-self-preservation: false
+      defaultZone: http://127.0.0.1:8761/eureka/
 spring:
   application:
-    name: jilinwula-springcloud-eureka-eureka
+    name: jilinwula-springcloud-feign-server
 server:
-  port: 8761
+  port: 8082

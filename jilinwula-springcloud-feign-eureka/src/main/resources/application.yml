@@ -7,6 +7,6 @@ eureka:
     enable-self-preservation: false
 spring:
   application:
-    name: jilinwula-springcloud-eureka-eureka
+    name: jilinwula-springcloud-feign-eureka
 server:
-  port: 8762
+  port: 8761
