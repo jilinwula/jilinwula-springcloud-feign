@@ -5,16 +5,15 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.jilinwula</groupId>
-    <artifactId>jilinwula-springcloud-eureka</artifactId>
+    <artifactId>jilinwula-springcloud-feign</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <packaging>pom</packaging>
 
     <modules>
-        <module>jilinwula-springcloud-eureka-client</module>
-        <module>jilinwula-springcloud-eureka-server</module>
-        <module>jilinwula-springcloud-eureka-server2</module>
-        <module>jilinwula-springcloud-eureka-server3</module>
+        <module>jilinwula-springcloud-feign-client</module>
+        <module>jilinwula-springcloud-feign-server</module>
+        <module>jilinwula-springcloud-feign-eureka</module>
     </modules>
 
 
