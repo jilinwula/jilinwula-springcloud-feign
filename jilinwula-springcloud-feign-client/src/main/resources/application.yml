@@ -7,3 +7,6 @@ spring:
     name: jilinwula-springcloud-feign-client
 server:
   port: 8081
+jilinwula-springcloud-feign-server:
+  ribbon:
+    NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule

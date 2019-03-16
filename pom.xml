@@ -12,8 +12,9 @@
 
     <modules>
         <module>jilinwula-springcloud-feign-client</module>
-        <module>jilinwula-springcloud-feign-server</module>
         <module>jilinwula-springcloud-feign-eureka</module>
+        <module>jilinwula-springcloud-feign-server</module>
+        <module>jilinwula-springcloud-feign-server2</module>
     </modules>
 
 

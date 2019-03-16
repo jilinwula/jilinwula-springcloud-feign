@@ -1,21 +1,22 @@
 package com.jilinwula.feign.controller;
 
-import com.jilinwula.feign.server.ServerApi;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-@RestController
-@RequestMapping("/client")
-public class Controller {
+import java.util.HashMap;
+import java.util.Map;
 
-    @Autowired
-    private ServerApi serverApi;
+@RestController
+@RequestMapping("/server")
+public class Controller {
 
     @GetMapping("/get")
     public Object get() {
-        String result = serverApi.get();
-        return result;
+        Map<String, String> map = new HashMap<String, String>();
+        map.put("code", "0");
+        map.put("msg", "success");
+        map.put("data", "jilinwula");
+        return map;
     }
 }
